@@ -1,0 +1,94 @@
+
+header{
+
+    width: 96%;
+    height: 80px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: rgba(234,160,65,0.2) 0px 8px 24px;
+    background: rgb(236,51,26);
+    background: radial-gradient(circle, rgba(236,51,26,1) 0%, rgba(252,87,17,1) 35%, rgba(234,160,65,1) 100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px;
+    margin-bottom: 20px;
+
+    transition: 0.3s;
+}
+
+header:hover{
+    box-shadow: rgba(234,160,65,0.7) 0px 8px 24px;
+
+}
+
+header h1{
+    color: white;
+    font-size: 25px;
+}
+
+header button{
+    background-color: transparent;
+    border: none;
+    position: relative;
+    transition: 0.3s;
+
+}
+header button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+.headerIcon{
+    font-size: 20px;
+    color: white;
+}
+
+
+.qtCartIcon{
+    height: 15px;
+    width: 15px;
+
+    position: absolute;
+    top:-4px;
+    right: -4px;
+
+    background-color: rgba(236,51,26,1);
+    color: white;
+    font-size: 10px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qtCartIcon p{
+    line-height:inherit
+}
+
+@media (min-width:550px){
+
+    header{
+        height: 100px;
+    }
+
+    header h1{
+        font-size: 30px;
+    }
+
+    .headerIcon{
+        font-size: 25px;
+    }
+
+    .qtCartIcon{
+        height: 20px;
+        width: 20px;
+        font-size: 12px;
+
+    }
+
+}

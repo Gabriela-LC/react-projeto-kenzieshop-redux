@@ -1,0 +1,15 @@
+
+.vitrine{
+    width: 96%;
+    margin: 20px auto;
+    padding: 5px;
+
+    list-style: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:15px
+
+}
