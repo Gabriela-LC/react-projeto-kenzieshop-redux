@@ -17,11 +17,13 @@ function Header({onCart = false}){
         <header>
             <h1>Kenzie Shop</h1>
             {onCart? (
-                <AiOutlineHome className="headerIcon" color="white" onClick={() => history.push("/")}/>
+                <button onClick={() => history.push("/")}>
+                    <AiOutlineHome className="headerIcon" color="white"/>
+                </button>
             ):(
                 cart.length > 0? (
-                    <button>
-                        <BsCart className="headerIcon" color="white" onClick={() => history.push("/cart")}/>
+                    <button onClick={() => history.push("/cart")}>
+                        <BsCart className="headerIcon" color="white"/>
                         <div className="qtCartIcon">
                             <p>{cart.reduce((acc,product) => {
                             return acc + product.quant
@@ -29,7 +31,9 @@ function Header({onCart = false}){
                         </div>
                     </button>
                 ):(
-                    <BsCart className="headerIcon" color="white" onClick={() => history.push("/cart")}/>
+                    <button onClick={() => history.push("/cart")}>
+                        <BsCart className="headerIcon" color="white"/>
+                    </button>
                 ))}
                 
         </header>

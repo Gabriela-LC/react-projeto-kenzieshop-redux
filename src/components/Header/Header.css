@@ -66,10 +66,6 @@ header button:hover{
     align-items: center;
 }
 
-.qtCartIcon p{
-    line-height:inherit
-}
-
 @media (min-width:550px){
 
     header{
