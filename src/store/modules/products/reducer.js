@@ -5,7 +5,7 @@ const defaultState = [
     {id: 4,name: "Fire TV Stick Lite", price: 227.00, quant: 1, image: "https://m.media-amazon.com/images/I/41yI07Cs9UL._AC_SX679_.jpg"},
     {id: 5,name: "Echo Buds (2ª Geração)", price: 854.00, quant: 1,image: "https://m.media-amazon.com/images/I/41xQKlqYxNL._AC_SX679_.jpg"},
     {id: 6,name: "Echo Show 5 (2ª Geração)", price: 569.00, quant: 1, image: "https://m.media-amazon.com/images/I/71fzcZQlbqS._AC_SX679_.jpg"},
-    {id: 7,name: "Echo Studio", price: 1614.00, image: "https://m.media-amazon.com/images/I/611I8j+AAzL._AC_SX679_.jpg"}
+    {id: 7,name: "Echo Studio", price: 1614.00, quant: 1, image: "https://m.media-amazon.com/images/I/611I8j+AAzL._AC_SX679_.jpg"}
 
 ]
 
